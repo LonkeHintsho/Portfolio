@@ -1,7 +1,7 @@
 :root{
     --primary-color: #615D5D;
     --primary-color-dark: #6096B4;
-    --secondary-color:#EBEFF2 ;
+    --secondary-color: #EBEFF2;
     --text-dark: #153448;
     --text-light: #615D5D;
     --extra-light:#4D869C;
@@ -87,17 +87,20 @@ ul li a:hover {
 .section__container1{
     min-height: 300px;
     margin: auto;
-    padding: 8rem
+    padding: 4rem
 }
 
-.image{
+.image1{
     display: flex;
-    justify-content: flex-end;   
+    justify-content: center;
+    
 }
 
-.image img{
+.image1 img{
     width: 400px;
     border-radius: 100%;
+    border:  solid;
+    border-width: 10px;
     height: 400px;
 }
 
@@ -161,12 +164,38 @@ ul li a:hover {
     color:antiquewhite
 }
 
-.about {
-    background-color: var(--secondary-color)
+.about{
+    background-color: var(--secondary-color);
+    padding: 4rem;  
 }
 
 .section__container2{
     min-height: 300px;
     margin: auto;
-    padding: 8rem
+}
+
+.education{
+    background-color: lightblue;
+    padding: 4rem;
+}
+.section__container3{
+    min-height: 300px;
+    margin: auto;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-around; 
+    
+}
+.image2{
+    display: flex;
+    justify-content: end;
+}
+
+.image2 img{
+    width: 400px;
+    border-radius: 50px;
+    border-color: #153448;
+    border: solid;
+    border-width: 10px;
+    height: 400px;
 }

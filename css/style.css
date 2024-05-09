@@ -1,7 +1,7 @@
 :root{
     --primary-color: #615D5D;
     --primary-color-dark: #6096B4;
-    --secondary-color: #c5a0d2;
+    --secondary-color:#EBEFF2 ;
     --text-dark: #153448;
     --text-light: #615D5D;
     --extra-light:#4D869C;
@@ -80,10 +80,11 @@ ul li a:hover {
     border-bottom-color: var(--secondary-color);
     color: var(--secondary-color);
 }
-.section {
+.homepage {
     background-color: var(--extra-light)
 }
-.section__container{
+
+.section__container1{
     min-height: 300px;
     margin: auto;
     padding: 8rem
@@ -91,8 +92,7 @@ ul li a:hover {
 
 .image{
     display: flex;
-    justify-content: flex-end;
-    
+    justify-content: flex-end;   
 }
 
 .image img{
@@ -101,18 +101,10 @@ ul li a:hover {
     height: 400px;
 }
 
-
 .content{
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.subtitle{
-    letter-spacing: 2px;
-    color: var(--text-light);
-    font-weight: 600;
-    margin-bottom: .5rem;
 }
 
 .title{
@@ -140,7 +132,7 @@ ul li a:hover {
 }
 
 .action__btns button{
-    font-size: 1rem;
+    font-size: 1rem;    
     font-weight: 200;
     height: 50px;
     width: 200px;
@@ -169,46 +161,12 @@ ul li a:hover {
     color:antiquewhite
 }
 
-
-@media (width < 750px){
-    nav .checkbox{
-        display: block;
-    }
-
-    ul{
-        position: absolute;
-        width: 100px;
-        height: calc(100vh -85px);
-        left: -100%;
-        top: 85px;
-        background-color: var(--extra-light);
-        flex-direction: column;
-        justify-content: center;
-        gap: 3rem;
-    }
-    nav #check:checked ~ ul{
-        left: 0;
-    }
-
-    ul li a{
-        font-size: 1.25rem;
-    }
-    
-    .section__container{
-        padding: 10rem 1rem 5rem 1rem;
-        text-align: center;
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .image{
-        grid-area: 1/1/2/2;
-    }
-
-    .action__btns{
-        margin: auto;
-    }
+.about {
+    background-color: var(--secondary-color)
 }
 
-
-
-
+.section__container2{
+    min-height: 300px;
+    margin: auto;
+    padding: 8rem
+}

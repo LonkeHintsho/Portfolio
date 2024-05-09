@@ -1,10 +1,10 @@
 :root{
-    --primary-color: #b3e1fa;
+    --primary-color: #615D5D;
     --primary-color-dark: #6096B4;
     --secondary-color: #c5a0d2;
     --text-dark: #153448;
-    --text-light: #BDCDD6;
-    --extra-light: #EEE9DA;
+    --text-light: #615D5D;
+    --extra-light:#4D869C;
     --max-width: 1200px;
 }
 
@@ -27,7 +27,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: antiquewhite;
+    background-color: #CDE8E5;
     z-index: 99;
 }
 .nav__content{
@@ -38,15 +38,11 @@ nav{
     align-items: center;
     justify-content: space-between;
 }
-
-nav .logo a{
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: var(--primary-color);
-    transition: .3s;
-}
-nav .logo a:hover{
-    color: var(--primary-color-dark);
+img[alt='logo']{
+    width: 5rem;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
 }
 
 nav .check{
@@ -87,16 +83,24 @@ ul li a:hover {
 .section {
     background-color: var(--extra-light)
 }
-
 .section__container{
-    min-height: 100vh;
-    max-width: var(--max-width);
+    min-height: 300px;
     margin: auto;
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: repeat(2 1fr);
-    gap: 4rem;
+    padding: 8rem
 }
+
+.image{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.image img{
+    width: 400px;
+    border-radius: 100%;
+    height: 400px;
+}
+
 
 .content{
   display: flex;
@@ -115,7 +119,7 @@ ul li a:hover {
     font-size: 2.5rem;
     font-weight: 400;
     line-height: 3rem;
-    color: var(--text-dark);
+    color: #615D5D;
     margin-left: 1rem;
 }
 
@@ -131,28 +135,30 @@ ul li a:hover {
 
 .action__btns{
     display: flex;
+    justify-content: flex-end;
     gap: 1rem;
 }
 
 .action__btns button{
     font-size: 1rem;
-    font-weight: 600;
-    left: 2px;
-    padding: 1rem 2rem;
-    outline: none;
+    font-weight: 200;
+    height: 50px;
+    width: 200px;
+    margin-inline-end: center;
     border: 2px solid var(--primary-color);
     border-radius: 10px;
     transition: 0.3;
     cursor: pointer;
 }
 
-.hire__me{
-    background-color: var(--primary-color);
-    color: #EEE9DA;
+.reach__me{
+   color: var(--primary-color);
+   justify-content: end;
 }
 
-.hire__me:hover{
-    background-color: var(--primary-color-dark);
+.reach__me:hover{
+    background-color: var(--primary-color);
+    color: antiquewhite;
 }
 .portfolio{
     color: var(--primary-color);
@@ -163,15 +169,6 @@ ul li a:hover {
     color:antiquewhite
 }
 
-.image{
-    display: grid;
-    place-items: center;
-}
-
-.image img{
-    width: min(25rem, 90%);
-    border-radius: 100%;
-}
 
 @media (width < 750px){
     nav .checkbox{

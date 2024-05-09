@@ -199,3 +199,22 @@ ul li a:hover {
     border-width: 10px;
     height: 400px;
 }
+
+.experience{
+    background-color: #d1c8c8;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.description1{
+    border-radius: 10px;
+    border: solid;
+    background-color: #8a9da4;
+    width: 500px;
+}
+.description2{
+    border-radius: 10px;
+    border: solid;
+    background-color: #8a9da4;
+    width: 500px;
+}

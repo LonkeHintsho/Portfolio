@@ -166,16 +166,29 @@ ul li a:hover {
 
 .about{
     background-color: var(--secondary-color);
-    padding: 4rem;  
+    padding: 5rem;
+    display: grid;  
+    justify-content: right;
+    align-content: space-between;
 }
 
-.section__container2{
-    min-height: 300px;
-    margin: auto;
-}
+#about{
+        background: url('https://github.com/LonkeHintsho/Project-Pictures/blob/main/images/Gala%20dinner%202021.jpg?raw=true') no-repeat 50% 50%;
+        background-size: cover;
+        background-attachment: fixed; 
+    }
+
+    .description1{
+        border-radius: 5px;
+        border: solid;
+        background-color: #e7ecee;
+        width: 400px;  
+    }
+
 
 .education{
     background-color: lightblue;
+    background-image: -moz-element();
     padding: 4rem;
 }
 .section__container3{
@@ -206,15 +219,66 @@ ul li a:hover {
     display: flex;
     justify-content: space-evenly;
 }
-.description1{
-    border-radius: 10px;
-    border: solid;
-    background-color: #8a9da4;
-    width: 500px;
+
+.section__container4{
+    min-height: 300px;
+    margin: auto;
+    padding: 4rem;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: space-around; 
+    
 }
 .description2{
     border-radius: 10px;
     border: solid;
     background-color: #8a9da4;
     width: 500px;
+}
+.description3{
+    border-radius: 10px;
+    border: solid;
+    background-color: #8a9da4;
+    width: 500px;
+}
+
+.image3{
+    display: flex;
+    justify-content: end;
+}
+
+.image3 img{
+    width: 400px;
+    border-radius: 50px;
+    border-color: #153448;
+    border: solid;
+    border-width: 10px;
+    height: 400px;
+}
+.projects{
+      min-height: 300px;
+    margin: auto;
+    padding: 4rem;
+    background-color: #e7ecee;
+    display: flex;
+
+}
+.section__container5{
+    min-height: 300px;
+    margin: auto;
+    padding: 4rem;
+    background-color: #e7ecee;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: space-around; 
+}
+.image4 img{
+    width: 500px;
+    border-radius: 5px;
+    border-color: #153448;
+    border: solid;
+    border-width: 5px;
+    height: 400px;
 }

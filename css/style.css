@@ -22,14 +22,14 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav{
+/* nav{
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     background-color: #CDE8E5;
     z-index: 99;
-}
+} */
 .nav__content{
     max-width: var(--max-width);
     margin: auto;

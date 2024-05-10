@@ -271,11 +271,24 @@ ul li a:hover {
     justify-content: space-around; 
      
 }
-.image4 img{
-    width: 500px;
-    border-radius: 5px;
-    border-color: #153448;
+.skills{
+    background-color: #c7ddeb;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.section__container6{
+    min-height: 300px;
+    margin: auto;
+    padding: 4rem;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    justify-content: space-around; 
+}
+.description4{
+    border-radius: 10px;
     border: solid;
-    border-width: 5px;
-    height: 400px;
+    background-color: #89b8c9;
+    width: 500px;
 }

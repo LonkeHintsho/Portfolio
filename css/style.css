@@ -188,7 +188,6 @@ ul li a:hover {
 
 .education{
     background-color: lightblue;
-    background-image: -moz-element();
     padding: 4rem;
 }
 .section__container3{
@@ -257,22 +256,20 @@ ul li a:hover {
     height: 400px;
 }
 .projects{
-      min-height: 300px;
-    margin: auto;
+    background-color: #689bbd;
     padding: 4rem;
-    background-color: #e7ecee;
     display: flex;
-
+    justify-content: space-evenly;
 }
 .section__container5{
     min-height: 300px;
     margin: auto;
     padding: 4rem;
-    background-color: #e7ecee;
     display: flex;
     flex-flow: row wrap;
     gap: 10px;
     justify-content: space-around; 
+     
 }
 .image4 img{
     width: 500px;

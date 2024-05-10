@@ -202,3 +202,9 @@ ul li a:hover {
     display: flex;
     justify-content: space-evenly;
 }
+.testimonials{
+    background-color: #a6bbc9;
+    padding: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
